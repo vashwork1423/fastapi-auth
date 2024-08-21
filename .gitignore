@@ -1,0 +1,47 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Pytest
+.cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+.dmypy.json.*
+
+# Local Docker
+docker-compose.override.yml
+
+# Miscellaneous
+*.swp
+*.swo
+*.swn
+*.DS_Store
+
+# FastAPI and Pydantic cache files
+*.pyd
+*.pyc
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
